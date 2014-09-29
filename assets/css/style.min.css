@@ -1,1 +1,1 @@
-body{width:100%}
+@-ms-viewport{width:device-width}body{background-color:#EFEFEF;color:#999;font-family:Lato,sans-serif;max-width:940px;margin:0 auto}a{text-decoration:none}header{width:100%}h1{color:#36B1BF;font-family:Lobster,cursive;font-size:5em;margin:25px 0;text-align:center}nav{text-align:center}nav ul{list-style-type:none;margin:0 10px;padding:0}nav li{display:inline-block}nav a{padding:15px 10px}

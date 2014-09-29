@@ -1,5 +1,87 @@
-/* TODO: You should probably add some stuff here */
+/***************************
+
+    #MISC (Awkward stuff that has no home)
+
+***************************/
+
+/* This is to set the responsive scaling for devices using IE10 */
+@-ms-viewport{
+  width: device-width;
+}
+
+
+
+
+
+/***************************
+
+    #FONTS
+
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Lobster', cursive;
+
+***************************/
+
+
+
+
+
+
+/***************************
+
+    #TOP-LEVEL-ELEMENTS
+
+***************************/
 
 body {
+    background-color: #EFEFEF;
+    color: #999999;
+    font-family: "Lato", sans-serif;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+/***************************
+
+    #HEADER
+
+***************************/
+
+header {
     width: 100%;
+}
+
+h1 {
+    color: #36B1BF;
+    font-family: "Lobster", cursive;
+    font-size: 5em;
+    margin: 25px 0;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    padding: 15px 10px;
 }
